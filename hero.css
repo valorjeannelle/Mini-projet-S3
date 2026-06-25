@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("manette.png");
+    background-size: cover;
+
+}
+header{
+    padding: 20px 20px;
+}
+
+nav ul{
+    list-style: none;
+    word-spacing: 20px;
+    
+}
+ 
+li{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+a:hover{
+    color: green;
+}
+
+#hero{
+    text-align: center;
+    color: white;
+    padding: 20px 20px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+span{
+    color: green;
+    opacity: 0.6;
+}
+#bouton{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    width:  150px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+   transition: transform 5ms;
+   
+}
+button:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 15px gray;
+    background-color: rgb(1, 104, 1);
+}
+
+
+
