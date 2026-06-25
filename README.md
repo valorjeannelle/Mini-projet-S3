@@ -1,4 +1,4 @@
-##Mini-Projet S3 - Cozy Valo
+#Mini-Projet S3 - Cozy Valo
 Ce projet consiste en la création d'un style relaxant et apaisant pour la page web Cozy Valor. Il a été réalisé dans le cadre d'une formation au sein d'Akieni Academy.
 
 ##Objectifs du projet
