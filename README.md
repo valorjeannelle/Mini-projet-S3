@@ -1,13 +1,13 @@
-#Mini-Projet S3 - Cozy Valo
-Ce projet consiste en la création d'un style relaxant et apaisant pour la page web Cozy Valor. Il a été réalisé dans le cadre d'une formation au sein d'Akieni Academy.
+# Mini-Projet S3 - Cozy Valor
 
-##Objectifs du projet
-Design : Mettre en avant mon sens de l'esthétique et du design.
-Technique : Pratiquer et approfondir ma maîtrise du CSS.
+Ce projet consiste en la création d'un style relaxant et apaisant pour la page web **Cozy Valor**. Il a été réalisé dans le cadre d'une formation au sein d'**Akieni Academy**.
 
-##Technologies utilisées
-HTML5
-CSS3)
+## 🚀 Objectifs du projet
 
-##
-visitez la page
+* **Design :** Mettre en avant mon sens de l'esthétique et du design.
+* **Technique :** Pratiquer et approfondir ma maîtrise du **CSS**.
+
+## 🛠️ Technologies utilisées
+
+* **HTML5**
+* **CSS3** (Stylisation, gestion des couleurs et des ambiances)
