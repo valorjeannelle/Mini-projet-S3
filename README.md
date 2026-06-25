@@ -9,5 +9,5 @@ Technique : Pratiquer et approfondir ma maîtrise du **CSS**.
 
 ##  Technologies utilisées
 
--HTML5
--CSS3
+HTML5,
+CSS3
