@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<!--Importation de la font Abril fatface-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Croissant+One&family=Quicksand:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<!--Importation de la font Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Croissant+One&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<!--Fin des importation-->    
+
+<!--Importation du css dans le html-->
+<link rel="stylesheet" href="style.css">
+<!--Fin de l'importation-->
+
+    <title>cozy valor</title>
+    <meta name="description" content="Cozy Valor, salon détente à Brazzaville : massages relaxants, soins du visage et espace bien-être pour une expérience cocooning unique.">
+</head>
+
+<body>
+<!--En-tête de la page-->
+    <header>
+        <h1>Cozy Valor</h1>
+        <nav>
+            <ul>
+           <li><a href="#accueil">Acceuil</a></li>
+            <li><a href="#a_propos">À propos</a></li>
+            <li><a href="#services">Nos services</a></li>
+            <li><a href="#rejoins_nous">Régoins-nous</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Contenu principal-->
+    <main id="accueil" >
+    <!--Présentation de  la structure Cozy Valor-->
+        <section id="a_propos">
+            <h2>Découvrez nous</h2>
+            <article>
+                <h3>C'est quoi Cozy Valor?</h3>
+                <p>Cozy Valor est une escapade pour les amoureux du confort, une aventure dans un salon chaleureux pour se détendre et oublier le monde extérieur.</p>
+            </article>
+            </section>
+    <!--Fin de la présentation-->     
+
+    <!--Section dédiée au différentes services du site-->
+            <section id="services">
+                <h2>Nos services</h2>
+
+            <!--Isolation du conteneur des cartes présentant différents services-->
+                <div class="conteneur_card">
+                <article class="card">
+                    <h3>Massages relaxants</h3>
+                    <p>Oublez tous vos soucis sous les mains expertes de nos masseurs et masseuses.
+                        Des techniques douces pour appaiser le corps et libérer les tensions.
+                    </p>
+                </article>
+                 <article class="card">
+                    <h3>Soins du visage</h3>
+                    <p>Rituels beautés pour une peau éclatante et reposée.</p>
+                </article>
+                <article class="card">
+                    <h3>Aromathérapie</h3>
+                    <p>Huiles essentielles et senteurs apaisantes pour une immersion sensorielle.</p>
+                </article>
+                <article class="card">
+                    <h3>Espace thé et infusions</h3>
+                    <p>Dégustation de boisons chaudes dans une ambiance cozy .</p>
+                </article>
+                <article class="card">
+                    <h3>Ateliers bien-être</h3>
+                    <p>Yoga doux,méditation guidée ou mini-sessions de développement personnel.</p>
+                </article> 
+                </div> 
+
+            </section>
+    <!--Fin de la section-->
+
+<!--Conseil sur la tenu à avoir lors des séances-->
+        <aside>
+            <h4>Petit conseil</h4>
+            <p>Déconnectez votre téléphone dès votre arrivée pour profiter pleinement de cette parenthèse hors du temps.</p>
+            </aside>
+        
+    <!--Fin de l'info -->
+   
+
+    <!--Formulaire pour se faire enrégistrer-->
+        <section id="rejoins_nous">
+            <form>
+                <h3>Fiates-vous enrégistrez</h3>
+                    <div id="legend">Entrez vos information personnelle ici</div>
+                  
+                    <fieldset>
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom" placeholder="votre nom ici" autocomplete="family-name">
+                    </fieldset>
+                    <fieldset>
+                    <label for="prenom">Prénom:</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="votre prénom ici" autocomplete="given-name">
+                    </fieldset>
+                    <fieldset>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="votreemail@gmail.com" autocomplete="email">
+                </fieldset>
+                <button  id="enregistrement">Valider</button>
+    
+            </form>
+        </section>
+    <!--Fin de la section-->
+    </main> 
+
+<!--Bas de page-->
+    <footer>
+        <p>&copy; cozyvalor2026@gmail.com</p>
+        <p>13 Rue Lumpika,Plateau des 15ans</p>
+    </footer>
+</body>
+</html>
