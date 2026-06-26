@@ -1,205 +1,119 @@
-/* Image de fond de la page web */
+/* Réglages de base */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background: url("cozy_lounge.png");
-    background-size: cover;
+    font-family: "Quicksand", sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
 }
-
-/* Centage des élement de l'entête de la page */
+/*En tête*/
 header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 20px 20px;
 }
-
-/* Disposition horizontale et espacée des lien de la barre de navigation*/
 nav ul{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-    margin-top: 20px;
     list-style: none;
-    
-}
+    margin-top: 20px;
+    border-bottom: 1px solid;
 
-/*Mise en forme des liens de la barre de navigation*/
+}
+li{
+    display: inline-block;
+    padding-inline: 20px;
+}
 a{
     text-decoration: none;
+    color: rgb(82, 81, 81);
     cursor: pointer;
-    color: white;
 }
 a:hover{
-    color: purple;
+    color: #2a9d8f;
 }
-
-/*Stylisation du grand titre h1 avec couleur ,taille et font */
-h1{
-    color: rgb(72, 26, 73);
-    text-shadow: 0px 5px 15px rgb(255, 2, 255);
-    font-size: 50px;
-    font-family: "Space Mono", monospace;
-    font-weight: 700;
-    font-style: normal;
-
-}
-
-
-/*Arrangement du main avec centrage des éléménts */
+/* Conteneur principal */
 main{
-    margin: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    width: 80%;
+    margin: 30px auto;
 }
 
-/*Couleur et font des titre secondairs */
-h2,h3,h4,label{
-    color:white;
+/* Sections */
+section{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+}
+
+/* Titres */
+h1,h2,h3,h4{
     font-family: "Cormorant Garamond", serif;
-    font-family: "Space Mono", monospace;
-    font-weight: 700;
-    font-style: normal;
-
+    color: #2a9d8f;
 }
-
-/*Couleur et font des paragraphs*/
-p{
-    color:rgb(235, 191, 198);
-    font-family: "Nunito", sans-serif;
-    font-family: "Space Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
-}
-
-/*Stylisation de la section à propos*/
-#a_propos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-#a_propos article{
-    width: 300px;
-    padding: 30px 30px;
-    border: 1px solid gray;
-    border-radius: 15px;
-    background: transparent;
-    backdrop-filter: blur(10px);
-    
-}
-#a_propos article h3{
-    text-align: center;
+h2{
     margin-bottom: 20px;
 }
 
-/*Disposition des cartes contenant des services dans des grilles*/
-.conteneur_card{
-    display: grid;
-    grid-template: repeat(2,200px)/repeat(3,300px);
-    gap:30px;
+h3{
+    margin-bottom: 10px;
+}
+
+/* Articles */
+article{
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+/* Aside */
+aside{
+    width: 80%;
+    margin: 20px ;
+    padding: 20px;
+    background-color: #fff4d6;
+    border: 1px solid #d8c98a;
+}
+
+/* Formulaire */
+form{
     margin-top: 20px;
 }
 
-/*Dimensionnement des cartes avec un effet glacemorphisme*/
-.card{
-    padding: 30px;
-    border: 1px solid gray;
-    border-radius: 15px;
-    background: transparent;
-    backdrop-filter: blur(10px);
-}
-.card h3{
-    text-align: center;
-   
-}
-/*Disposition au centre du tire de la section des services*/
-#services h2{
-    text-align: center;
-}
-
-/*Mise en page de l'aside avec une légère transparence*/
-aside{
-    margin-top: 10px;
-    background-color: rgba(128, 128, 128, 0.425);
-    border: none;
-    border-left: 2px solid rgb(179, 14, 179);
-    padding: 10px;
-}
-
-/*Mise en forme du formualire d'inscription avec un effet glacemorphisme et d'une ombre lumineuse*/
-form{
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    padding: 30px;
-    border-radius: 15px;
-    border: 1px solid gray;
-    border-radius: 15px;
-    background:transparent;
-    backdrop-filter: blur(10px);
-    box-shadow: 0px 5px 15px purple;
-    
-}
-
-/*Coloration du titre de la legende du formualire*/
-#legend{
-    color: rgb(219, 64, 219);
-}
-
-/*Organisation des élements du fieldset*/
 fieldset{
-    padding: 10px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    justify-content: space-between;
-    width: 300px;
     border: none;
+    margin-bottom: 15px;
 }
+
 label{
-    width: 100px;
+    display: block;
+    margin-bottom: 5px;
 }
+
 input{
-    border: 1px solid purple;
-    border-radius: 5px;
-    padding: 10px;
-    width: 200px;
-    font-family: "Space Mono", monospace;
-    font-weight: 400;
-    font-style: normal;
+    width: 100%;
+    padding: 8px;
 }
 
-/*Stylisation du bouton de validation*/
 button{
-    background-color: rgb(138, 43, 226);
-    color: white;
-    padding: 10px;
-    width: 150px;
+    padding: 10px 20px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
+    background-color:#2a9d8f;
+    color: white;
     cursor: pointer;
-    transition: transform 5ms;
-    font-family: "Space Mono", monospace;
-    font-weight: 700;
-    font-style: normal;
 }
 
-/*Effet d'agrandissemnt et d'ombre lumineuse sur le bouton de validation lorsque le cursuer le survole*/
-button:hover{
-    transform:scale(1.2);
-    background-color: rgb(77, 17, 133);
-    box-shadow: 0px 5px 15px plum;
+/* Pied de page */
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
 }
-
-
 /*Stylisation du bas de page*/
 footer{
     margin-top: 50px;
