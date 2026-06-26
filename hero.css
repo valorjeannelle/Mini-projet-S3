@@ -60,22 +60,9 @@ button{
    
 }
 button:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
     box-shadow: 0px 5px 15px gray;
     background-color: rgb(1, 104, 1);
-}
-
-
-
-.hero_content{
-    text-align: center;
-    color: white;
-    padding: 20px;
-    position: absolute;
-    top: 25%;
-    left: 35%;
-   
-    
 }
 
 #hero{
@@ -87,5 +74,14 @@ button:hover{
     position: relative;
 }
 
+.hero_content{
+    text-align: center;
+    color: white;
+    padding: 20px;
 
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
